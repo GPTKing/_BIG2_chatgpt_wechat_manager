@@ -1,4 +1,4 @@
-<h4 align="center">此套系统,后端用的为java后端开源系统</h4>
+<h4 align="center">后端管理页面</h4>
 
 ## 后端介绍
 
