@@ -4,7 +4,7 @@
 
 * 微信小程序源码: [点我进入](https://gitee.com/e0cia/chatgpt_wechat_font)
 
-* 后台管理前端源码: [点我进入](https://gitee.com/e0cia/chatgpt_wechat_manager)
+* 微信小程序数据请求源码: [点我进入](https://gitee.com/e0cia/chatgpt_wechat_houtai)
 
 小程序需配合此套java程序，下面将详细介绍此套系统的搭建过程谢谢！
 如果前端的话请大家转移的上述的前端链接，获取小程序源码
