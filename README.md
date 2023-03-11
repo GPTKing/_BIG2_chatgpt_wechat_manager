@@ -22,6 +22,25 @@
 ###  **_教程视频_**  : [B站视频教程-小白可搭建](https://space.bilibili.com/342298458/channel/seriesdetail?sid=3077994&ctype=0)（搭建视频未更新,等待更新）
 
 
+
+
+
+
+ **_伪静态_** 
+```
+     try_files $uri $uri/ /index.html;
+     location /prod-api/ {
+ 		proxy_set_header Host $http_host;
+ 		proxy_set_header X-Real-IP $remote_addr;
+		proxy_set_header REMOTE-HOST $remote_addr;
+ 		proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+ 		proxy_pass http://120.48.124.77:7697/;
+ 	}
+```
+
+
+
+
 1.服务器配置
 
 centos7.9
